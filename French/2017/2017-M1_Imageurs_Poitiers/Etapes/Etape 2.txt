@@ -1,0 +1,20 @@
+run("Clear Results");
+quantifier();
+
+function quantifier(){
+	//Stocke les infos sur toute l'image
+	selectWindow("Stack");
+	run("Select None");
+	getStatistics(area, mean, min, max, std, histogram);
+	setResult("Timepoint", nResults, nResults);
+	setResult("Full_Image", nResults-1, mean);
+
+	//Stocke les infos pour chaque région
+	for(i=0; i<roiManager("Count"); i++){
+		selectWindow("Stack");
+		roiManager("Select", i);
+		getStatistics(area, mean, min, max, std, histogram);
+		setResult("ROI_"+(i+1), nResults-1, mean);
+	}
+	updateResults();
+}

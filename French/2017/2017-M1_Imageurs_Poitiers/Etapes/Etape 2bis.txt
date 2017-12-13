@@ -1,0 +1,18 @@
+var colors=newArray("blue", "green", "cyan", "yellow", "magenta");
+
+cleanUpROIs();
+
+function cleanUpROIs(){
+	//Si des ROIs ont été sélectionnées, il faut s'assurer que la position n'est pas enregistrée
+	roiManager("Deselect");
+	roiManager("Remove Channel Info");
+	roiManager("Remove Slice Info");
+	roiManager("Remove Frame Info");
+
+	for(i=0; i<roiManager("Count"); i++){
+		roiManager("Select", i);
+		colorNb=i%colors.length;
+		roiManager("Set Color", colors[colorNb]);
+    	roiManager("Rename", "ROI_"+(i+1));
+	}
+}

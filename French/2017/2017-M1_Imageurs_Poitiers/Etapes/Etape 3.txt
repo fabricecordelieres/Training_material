@@ -1,0 +1,90 @@
+//---------------------------------------------------------------
+// VARIABLES SIMPLES
+//---------------------------------------------------------------
+delai=1000;
+timeOut=5;
+
+//---------------------------------------------------------------
+// VARIABLES GLOBALES
+//---------------------------------------------------------------
+var colors=newArray("blue", "green", "cyan", "yellow", "magenta");
+
+run("Clear Results");
+
+cleanUpROIs();
+
+formerLaPile(delai, timeOut);
+
+//---------------------------------------------------------------
+// Si des ROIs ont été sélectionnées, il faut s'assurer que 
+// la position sur la pile n'est pas enregistrée
+//---------------------------------------------------------------
+function cleanUpROIs(){
+	//Si des ROIs ont été sélectionnées, il faut s'assurer que la position n'est pas enregistrée
+	roiManager("Deselect");
+	roiManager("Remove Channel Info");
+	roiManager("Remove Slice Info");
+	roiManager("Remove Frame Info");
+
+	for(i=0; i<roiManager("Count"); i++){
+		roiManager("Select", i);
+		colorNb=i%colors.length;
+		roiManager("Set Color", colors[colorNb]);
+    	roiManager("Rename", "ROI_"+(i+1));
+	}
+}
+
+//---------------------------------------------------------------
+// Création dynamique de la pile
+// Quantification au cours du temps
+//---------------------------------------------------------------
+function formerLaPile(delai, timeOut){
+	while(nImages==0) wait(delai);
+	rename("Stack");
+	quantifier(); //C'est le premier tour: on initie mesures
+	roiManager("Show All"); //Active l'affichage de l'ensemble des ROIs
+
+	//Déplace le stack pour éviter la superposition avec les images arrivant
+	setLocation(screenWidth-getWidth, 0);
+
+	nTimeOut=0;	
+	while(nTimeOut<timeOut){
+		if(nImages>1){
+			selectImage(nImages); //Sélectionner la dernière image ouverte
+			run("Copy");
+			close();
+
+			selectWindow("Stack");
+			run("Add Slice");
+			run("Paste");
+
+			quantifier();
+
+			nTimeOut=0;
+		}
+		wait(delai);
+		nTimeOut++;
+	}
+}
+
+//---------------------------------------------------------------
+// Quantification de l'intensité moyenne
+// sur l'image entière et dans chaque ROI
+//---------------------------------------------------------------
+function quantifier(){
+	//Stocke les infos sur toute l'image
+	selectWindow("Stack");
+	run("Select None");
+	getStatistics(area, mean, min, max, std, histogram);
+	setResult("Timepoint", nResults, nResults);
+	setResult("Full_Image", nResults-1, mean);
+
+	//Stocke les infos pour chaque région
+	for(i=0; i<roiManager("Count"); i++){
+		selectWindow("Stack");
+		roiManager("Select", i);
+		getStatistics(area, mean, min, max, std, histogram);
+		setResult("ROI_"+(i+1), nResults-1, mean);
+	}
+	updateResults();
+}

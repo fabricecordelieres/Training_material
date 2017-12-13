@@ -1,0 +1,29 @@
+delai=1000;
+timeOut=5;
+
+formerLaPile(delai, timeOut);
+
+function formerLaPile(delai, timeOut){
+	while(nImages==0) wait(delai);
+	rename("Stack");
+
+	//Déplace le stack pour éviter la superposition avec les images arrivant
+	setLocation(screenWidth-getWidth, 0);
+
+	nTimeOut=0;	
+	while(nTimeOut<timeOut){
+		if(nImages>1){
+			selectImage(nImages); //Sélectionner la dernière image ouverte
+			run("Copy");
+			close();
+
+			selectWindow("Stack");
+			run("Add Slice");
+			run("Paste");
+
+			nTimeOut=0;
+		}
+		wait(delai);
+		nTimeOut++;
+	}
+}

@@ -1,0 +1,18 @@
+Stack.setDisplayMode("composite");
+run("Z Project...", "projection=[Max Intensity]");
+//setTool("oval");
+makeOval(227, 44, 133, 140);
+roiManager("Add");
+makeOval(81, 276, 127, 128);
+roiManager("Add");
+makeOval(629, 399, 144, 161);
+roiManager("Add");
+makeOval(143, 628, 181, 185);
+roiManager("Add");
+selectWindow("ROI Manager");
+roiManager("Deselect");
+roiManager("Save", "/2021 M1 Imageurs Poitiers/RoiSet.zip");
+roiManager("Show All with labels");
+run("Set Measurements...", "area mean standard modal min redirect=None decimal=3");
+roiManager("multi-measure measure_all");
+saveAs("Results", "/2021 M1 Imageurs Poitiers/Results.csv");

@@ -12,50 +12,50 @@
 </thead>
 <tbody>
   <tr>
-    <td>9h00-10h30</td>
+    <td><b>9h00-10h30</b></td>
     <td rowspan="4"></td>
     <td><a href="#deepimagej">Deep-learning avec <br>DeepImageJ<br>Daniel Sage</a></td>
     <td><a href="#zerocoststardist">ZeroCostDL4Mic:<br>bien commencer avec Stardist/Trackmate<br>Guillaume Jacquemet</a></td>
     <td>Expérimentez sur vos propres images<br>Q&amp;A<br>Tous les instructeurs</td>
   </tr>
   <tr>
-    <td>10h30-11h00</td>
-    <td>Pause</td>
-    <td>Pause</td>
-    <td>Pause</td>
+    <td><b>10h30-11h00</b></td>
+    <td><em>Pause</em></td>
+    <td><em>Pause</em></td>
+    <td><em>Pause</em></td>
   </tr>
   <tr>
-    <td>11h00-12h30</td>
+    <td><b>11h00-12h30</b></td>
     <td><a href="#deepimagej">Deep-learning avec <br>DeepImageJ<br> (suite)<br>Daniel Sage</a></td>
     <td><a href="#zerocostdenoising">ZeroCostDL4Mic:<br>aller plus loin avec Denoising/Pix2pix<br>Guillaume Jacquemet</a></td>
     <td>Bilan de fin de formation<br>Table ronde<br>Actions à venir<br>Tous les instructeurs</td>
   </tr>
   <tr>
-    <td>12h30-14h00</td>
-    <td>Déjeuner</td>
-    <td>Déjeuner</td>
-    <td>Déjeuner</td>
+    <td><b>12h30-14h00</b></td>
+    <td><em>Déjeuner</em></td>
+    <td><em>Déjeuner</em></td>
+    <td><em>Déjeuner</em></td>
   </tr>
   <tr>
-    <td>14h00-14h30</td>
+    <td><b>14h00-14h30</b></td>
     <td rowspan="2"><a href="#intro">Introduction au Deep-Learning:<br>théorie et vocabulaire<br>David Rousseau</a></td>
     <td><a href="#care">Séminaire d’application:<br>CARE/StarDist<br>Martin Weigert</a></td>
     <td><a href="#imjoy">Séminaire d’application:<br>ImJoy<br>Wei Ouyang</a></td>
     <td rowspan="4"></td>
   </tr>
   <tr>
-    <td>14h30-16h00</td>
+    <td><b>14h30-16h00</b></td>
     <td><a href="#deepimagej">Deep-learning avec <br>DeepImageJ<br> (fin)<br>Daniel Sage</a></td>
     <td><a href="#zerocostqc">ZeroCostDL4Mic:<br>les outils de contrôle qualité<br>Guillaume Jacquemet</a></td>
   </tr>
   <tr>
-    <td>16h00-16h30</td>
-    <td>Pause</td>
-    <td>Pause</td>
-    <td>Pause</td>
+    <td><b>16h00-16h30</b></td>
+    <td><em>Pause</em></td>
+    <td><em>Pause</em></td>
+    <td><em>Pause</em></td>
   </tr>
   <tr>
-    <td>16h30-19h00</td>
+    <td><b>16h30-19h00</b></td>
     <td><a href="#outilsos">Découverte et prise en main <br>d’outils open-source<br>Romain Guiet/Bertrand Vernay</a></td>
     <td><a href="#annot">Annotations:<br>types, outils et moyens <br>pour les évaluer<br>Bertrand Vernay/Romain Guiet</a></td>
     <td><a href="#tr">Table-ronde:<br>quels outils et métriques <br>pour le contrôle qualité ?<br>Romain Guiet/Bertrand Vernay/<br>Daniel Sage</a></td>
@@ -63,9 +63,80 @@
 </tbody>
 </table>
 
+---
 # Pré-requis pour la formation
+## e-learning
+### Acquérir quelques éléments de vocabulaire:
+Vous pouvez consulter [ce site](https://github.com/HenriquesLab/ZeroCostDL4Mic/wiki/Glossary) pour vous familiariser avec le vocabulaire du deep learning ou vous y référer pendant le visionnage des vidéos.
+
+### Se familiariser avec les bases théoriques du machine learning:
+* Introduction au machine learning et au deep learning
+  * [Partie 1 (15:57)](https://www.youtube.com/watch?v=RzN5RVSwrRw)
+  * [Partie 2 (17:12)](https://www.youtube.com/watch?v=C8pPx-AbRHI&list=PLUukCwr0iCef9M7WUOx9_bJYJpvMxek6F&index=2)
+  * [Partie 3 (23:02)](https://www.youtube.com/watch?v=Rb-4Yu-qLR4&list=PLUukCwr0iCef9M7WUOx9_bJYJpvMxek6F&index=3)
+  * [Partie 4 (16:11)](https://www.youtube.com/watch?v=2US1r-cYJSg&list=PLUukCwr0iCef9M7WUOx9_bJYJpvMxek6F&index=4)
+* [CNN principles (20:16)](https://www.youtube.com/watch?v=muY5FAn04FI&list=PLUukCwr0iCef9M7WUOx9_bJYJpvMxek6F&index=6)
+* [Basic architecture in deep learning (29:26)](https://www.youtube.com/watch?v=a8XvknLW-Dg&list=PLUukCwr0iCef9M7WUOx9_bJYJpvMxek6F&index=7)
+* [PlaygroundTensorFlow demo (15:36)](https://www.youtube.com/watch?v=zAN3xUBiaPI&list=PLUukCwr0iCef9M7WUOx9_bJYJpvMxek6F&index=5)
+
+### Se familiariser l’utilisation de quelques ressources logicielles:
+* __iLastik:__ présentation du logiciel et démo dans le cadre de la [NeuBIAS Academy](https://www.youtube.com/c/NEUBIAS/videos):
+  * [Vidéo sur YouTube (01:26:53)](https://www.youtube.com/watch?v=_ValtSLeAr0)
+  * [Q&A sur le forum ImageJ](https://forum.image.sc/t/neubias-academy-home-webinar-ilastik-beyond-pixel-classification-questions-answers/39218)
+* __ZeroCostDL4mic:__ présentation du logiciel et démo dans le cadre de la [NeuBIAS Academy](https://www.youtube.com/c/NEUBIAS/videos):
+  * [Vidéo sur YouTube (01:33:36)](https://www.youtube.com/watch?v=dcgU5WKE70I)
+  * [Q&A sur le forum ImageJ](https://forum.image.sc/t/neubias-academy-home-webinar-zerocostdl4mic-questions-answers/54397)
 
 
+## Un peu de lecture
+En préalable à la formation, il vous est fortement conseillé de lire les revues suivantes:
+*
+*
+*
+
+## QUelques installations
+### Installer Fiji
+Est-il besoin de préciser comment installer Fiji ? Vous le trouverez ici: dézippez l’archive dans un répertoire où vous êtes sûr(e) d’avoir les droits d’écriture.
+Nos instructeurs ont noté un problème de compatibilité entre certains greffons (Labkit en StarDist): n’hésitez pas à dupliquer votre répertoire Fiji de manière à avoir deux instances indépendantes !
+
+### Greffons et bibliothèques Fiji à installer
+Voici la liste des greffons installer: cliquez sur les liens pour consulter leurs documentations respectives et avoir accès à leur procédure d’installation:
+* [DeepImageJ](https://deepimagej.github.io/deepimagej/download.html).
+* [iLastik import/export](https://www.ilastik.org/documentation/fiji_export/plugin).
+* [ImageScience](https://imagej.net/libs/imagescience) (utile pour certains calculs réalisés par le greffon Weka).
+* [Labkit](https://imagej.net/plugins/labkit/) (attention, ne pas installer sur la même instance que celle contenant StarDist).
+* [SCF](https://imagej.net/plugins/interactive-watershed).
+* [Stardist](https://imagej.net/plugins/stardist) (attention, ne pas installer sur la même instance que celle contenant Labkit).
+* [TrackMate+StarDist](https://imagej.net/plugins/trackmate/trackmate-stardist).
+
+### Installer iLastik
+Télécharger et installer iLastik que vous trouverez [ici](https://www.ilastik.org/).
+
+### Outils Python:
+Certains d’outils reposent sur Python: nous vous conseillons de télécharger et d’installer l’environnement Anaconda que vous trouverez [ici](https://www.anaconda.com/products/individual).
+* __LabelImg__: suivre les instructions disponibles [ici](https://github.com/tzutalin/labelImg).
+* __labelme__: suivre les instructions disponibles [ici](https://github.com/wkentaro/labelme).
+
+__Attention, concernant l'installation de labelme__: devant les difficultés rencontrées en suivant le tutoriel, voici une procédure simplifiée pour Anaconda:
+Depuis le terminal, faire:
+* conda create --name=labelme python=3.6
+* conda activate labelme
+* pip install labelme
+Pour lancer labelme, toujours depuis le terminal, faire:
+* labelme
+
+### Macros ImageJ
+Ces deux macros permettent d'exporter des ROIs au format XML pour YOLO:
+* Version de Bertrand téléchargeable [ici](https://raw.githubusercontent.com/bvernay/ImageJ-Macros/master/xml_annotations_tools/roiTOXML.ijm).
+* Version de Romain téléchargeable [ici](https://gist.github.com/romainGuiet/288dfec7fc2534fe7af027f88a971f9b).
+
+### Outils indépendants
+* __itk-SNAP:__ suivre les instructions disponibles [ici](http://www.itksnap.org/pmwiki/pmwiki.php).
+
+### Créer un compte Google spécifique pour l’utilisation de Collaboratory
+Certains workflow que nous allons utiliser nécessitent d’utiliser les ressources en-ligne mises à disposition par Google. En amont de la formation, il vous est demandé de créer un compte spécifique via [ce lien](https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp). A vrai dire, les ressources de calcul disponibles pouvant être limitées par Google, il pourra être utile de créer plusieurs comptes dédiés.
+
+---
 # Contenu de la formation
 ## <a name="intro">Introduction au Deep-Learning: théorie et vocabulaire, David Rousseau</a>
 ## <a name="outilsos">Découverte et prise en main d’outils open-source, Romain Guiet/Bertrand Vernay</a>

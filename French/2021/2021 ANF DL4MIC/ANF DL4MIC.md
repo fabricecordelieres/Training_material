@@ -91,7 +91,7 @@ Vous pouvez consulter [ce site](https://github.com/HenriquesLab/ZeroCostDL4Mic/w
 ## Un peu de lecture
 En préalable à la formation, il vous est fortement conseillé de lire les revues suivantes:
 * [Laine RF, Jacquemet G, Krull A. Imaging in focus: An introduction to denoising bioimages in the era of deep learning. Int J Biochem Cell Biol. 2021 Nov;140:106077. doi: 10.1016/j.biocel.2021.106077. Epub 2021 Sep 20. PMID: 34547502; PMCID: PMC8552122.](https://doi.org/10.1016/j.biocel.2021.106077)
-* [Laine RF, Arganda-Carreras I, Henriques R, Jacquemet G. Avoiding a replication crisis in deep-learning-based bioimage analysis. Nat Methods. 2021 Oct;18(10):1136-1144. doi: 10.1038/s41592-021-01284-3. PMID: 34608322; PMCID: PMC7611896.](https://www.nature.com/articles/s41592-021-01284-3)
+* [Laine RF, Arganda-Carreras I, Henriques R, Jacquemet G. Avoiding a replication crisis in deep-learning-based bioimage analysis. Nat Methods. 2021 Oct;18(10):1136-1144. doi: 10.1038/s41592-021-01284-3. PMID: 34608322; PMCID: PMC7611896.](https://doi.org/10.1038/s41592-021-01284-3)
 * [Lucas AM, Ryder PV, Li B, Cimini BA, Eliceiri KW, Carpenter AE. Open-source deep-learning software for bioimage segmentation. Mol Biol Cell. 2021 Apr 19;32(9):823-829. doi: 10.1091/mbc.E20-10-0660. PMID: 33872058; PMCID: PMC8108523.](https://doi.org/10.1091/mbc.E20-10-0660)
 
 ## Quelques installations

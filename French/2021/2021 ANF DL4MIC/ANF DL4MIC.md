@@ -139,13 +139,39 @@ Certains workflow que nous allons utiliser nécessitent d’utiliser les ressour
 ---
 # Contenu de la formation
 ## <a name="intro">Introduction au Deep-Learning: théorie et vocabulaire, David Rousseau</a>
+* La présentation est disponible [ici](https://uabox.univ-angers.fr/index.php/s/qBNkC2KdJ5BCZhw).
+* Pour aller plus loin:
+  * Pourquoi fixer la taille des noyaux de convolutions…. par facilité mais ce n’est pas forcément optimal: [plus d'infos ici](https://arxiv.org/abs/2110.08059)
+  * Courbe ROC Kézako ? : la réponse [ici](https://en.wikipedia.org/wiki/Receiver_operating_characteristic)
+  * Les réseaux de convolution ne sont pas forcément la fin de l’histoire : [lire ici](https://towardsdatascience.com/geometric-foundations-of-deep-learning-94cdd45b451d).
+  * Un exemple de réseau de neurones non convolutionnel très investigué actuellement dans le domaine de l’image : [à lire ici](https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf).
+  * Les gros modèles issus de la vision par ordinateur ne sont pas forcément optimaux pour tous les problèmes: [plus d'infos ici](https://www.youtube.com/watch?v=UIE3PcIPShY&t=9s).
+  * Deep learning dans le domaine de Fourier : pour en savoir plus, suivre ce [lien](http://ecmlpkdd2017.ijs.si/papers/paperID11.pdf).
+
 ## <a name="outilsos">Découverte et prise en main d’outils open-source, Romain Guiet/Bertrand Vernay</a>
+* La présentation est disponible [ici](https://docs.google.com/presentation/d/1ipXyEdyGEsf8miaDRQG0EIKcetVmXXWhXpjR8vZro_M/edit?usp=sharing).
+* Le tutoriel iLastik est disponible [ici](https://docs.google.com/presentation/d/1EQaLIWMtOP6Siz9ZAAk-Yh646pfUUaXiKjBtlMgWnDM/edit?usp=sharing).
+* Liens vers les jeux de données:
+  * [Dataset 1](https://zenodo.org/record/4248921#.YW60vRpBw2y).
+  * [Dataset 2](https://drive.google.com/drive/folders/183FohDepgfrmtC0WYFn30Jmkq9odb7qF?usp=sharing).
+* Ressource complémentaire sur le template matching: greffon ImageJ disponible [ici](https://imagej.net/plugins/multi-template-matching).
+
+
 ## <a name="deepimagej">Deep-learning avec DeepImageJ, Daniel Sage</a>
+* La présentation et les données sont disponibles [ici](https://drive.google.com/drive/folders/1zZXKm3twf4gzDSdK7PGM_P08nswcVdGX?usp=sharing).
+
+
 ## <a name="care">Séminaire d’application: CARE/StarDist, Martin Weigert</a>
+
 ## <a name="annot">Annotations: types, outils et moyens pour les évaluer, Bertrand Vernay/Romain Guiet</a>
+
 ## <a name="zerocoststardist">ZeroCostDL4Mic: bien commencer avec Stardist/Trackmate, Guillaume Jacquemet</a>
+
 ## <a name="zerocostdenoising">ZeroCostDL4Mic: aller plus loin avec Denoising/Pix2pix, Guillaume Jacquemet</a>
+
 ## <a name="imjoy">Séminaire d’application: ImJoy, Wei Ouyang</a>
+* La présentation est disponible [ici](https://slides.imjoy.io/?slides=https://raw.githubusercontent.com/oeway/slides/master/2021/cnrs-deep-learning-for-microscopy.md).
+
 ## <a name="zerocostqc">ZeroCostDL4Mic: les outils de contrôle qualité, Guillaume Jacquemet</a>
 ## <a name="tr">Table-ronde: quels outils et métriques pour le contrôle qualité ?, Romain Guiet/Bertrand Vernay/Daniel Sage</a>
 ## <a name="annot">Expérimentez sur vos propres images, Q&A, Tous les instructeurs</a>

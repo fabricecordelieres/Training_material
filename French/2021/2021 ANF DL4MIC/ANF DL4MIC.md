@@ -149,7 +149,7 @@ Certains workflow que nous allons utiliser nécessitent d’utiliser les ressour
   * Deep learning dans le domaine de Fourier : pour en savoir plus, suivre ce [lien](http://ecmlpkdd2017.ijs.si/papers/paperID11.pdf).
 
 ## <a name="outilsos">Découverte et prise en main d’outils open-source, Romain Guiet/Bertrand Vernay</a>
-* La présentation est disponible [ici](https://docs.google.com/presentation/d/1ipXyEdyGEsf8miaDRQG0EIKcetVmXXWhXpjR8vZro_M/edit?usp=sharing).
+* La présentation de l'exercice est disponible [ici](https://docs.google.com/presentation/d/1ipXyEdyGEsf8miaDRQG0EIKcetVmXXWhXpjR8vZro_M/edit?usp=sharing).
 * Le tutoriel iLastik est disponible [ici](https://docs.google.com/presentation/d/1EQaLIWMtOP6Siz9ZAAk-Yh646pfUUaXiKjBtlMgWnDM/edit?usp=sharing).
 * Liens vers les jeux de données:
   * [Dataset 1](https://zenodo.org/record/4248921#.YW60vRpBw2y).

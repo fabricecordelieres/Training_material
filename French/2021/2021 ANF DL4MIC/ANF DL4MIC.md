@@ -177,3 +177,5 @@ Certains workflow que nous allons utiliser nécessitent d’utiliser les ressour
 ## <a name="zerocostqc">ZeroCostDL4Mic: les outils de contrôle qualité, Guillaume Jacquemet</a>
 ## <a name="tr">Table-ronde: quels outils et métriques pour le contrôle qualité ?, Romain Guiet/Bertrand Vernay/Daniel Sage</a>
 ## <a name="annot">Expérimentez sur vos propres images, Q&A, Tous les instructeurs</a>
+
+![Photo de groupe](https://github.com/fabricecordelieres/Training_material/blob/master/French/2021/2021%20ANF%20DL4MIC/img/Photo_groupe.jpg)

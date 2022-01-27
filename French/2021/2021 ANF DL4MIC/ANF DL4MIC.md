@@ -140,6 +140,9 @@ Certains workflow que nous allons utiliser nécessitent d’utiliser les ressour
 
 ---
 # Contenu de la formation
+
+Pour les partie de la formation ayant été enregistrées, une playlist est disponible [ici](https://www.youtube.com/watch?v=ttyilVGUCLQ&list=PLHrpBtlAiSe1Wzbv1KeFa19dlnMVCmNvE), [sur la chaine YouTube du RTMFM](https://www.youtube.com/channel/UCpziluNVb_ViZVaX0tYjuBw).
+
 ## <a name="intro">Introduction au Deep-Learning: théorie et vocabulaire, David Rousseau</a>
 * La présentation est disponible [ici](https://uabox.univ-angers.fr/index.php/s/qBNkC2KdJ5BCZhw).
 * Pour aller plus loin:
@@ -164,17 +167,23 @@ Certains workflow que nous allons utiliser nécessitent d’utiliser les ressour
 
 
 ## <a name="care">Séminaire d’application: CARE/StarDist, Martin Weigert</a>
+* La vidéo du séminaire d'application est disponible [ici](https://www.youtube.com/watch?v=dzOD-XDEvdI&list=PLHrpBtlAiSe1Wzbv1KeFa19dlnMVCmNvE&index=4)
 
 ## <a name="annot">Annotations: types, outils et moyens pour les évaluer, Bertrand Vernay/Romain Guiet</a>
 
 ## <a name="zerocoststardist">ZeroCostDL4Mic: bien commencer avec Stardist/Trackmate, Guillaume Jacquemet</a>
+* La vidéo de cette session est disponible [ici](https://www.youtube.com/watch?v=ttyilVGUCLQ&list=PLHrpBtlAiSe1Wzbv1KeFa19dlnMVCmNvE&index=1)
 
 ## <a name="zerocostdenoising">ZeroCostDL4Mic: aller plus loin avec Denoising/Pix2pix, Guillaume Jacquemet</a>
+* La vidéo de cette session est disponible [ici](https://www.youtube.com/watch?v=ttyilVGUCLQ&list=PLHrpBtlAiSe1Wzbv1KeFa19dlnMVCmNvE&index=2)
 
 ## <a name="imjoy">Séminaire d’application: ImJoy, Wei Ouyang</a>
 * La présentation est disponible [ici](https://slides.imjoy.io/?slides=https://raw.githubusercontent.com/oeway/slides/master/2021/cnrs-deep-learning-for-microscopy.md).
+* La vidéo du séminaire d'application est disponible [ici](https://www.youtube.com/watch?v=8mEGsvX5q80&list=PLHrpBtlAiSe1Wzbv1KeFa19dlnMVCmNvE&index=5)
 
 ## <a name="zerocostqc">ZeroCostDL4Mic: les outils de contrôle qualité, Guillaume Jacquemet</a>
+* La vidéo de cette session est disponible [ici](https://www.youtube.com/watch?v=ttyilVGUCLQ&list=PLHrpBtlAiSe1Wzbv1KeFa19dlnMVCmNvE&index=3)
+*
 ## <a name="tr">Table-ronde: quels outils et métriques pour le contrôle qualité ?, Romain Guiet/Bertrand Vernay/Daniel Sage</a>
 ## <a name="annot">Expérimentez sur vos propres images, Q&A, Tous les instructeurs</a>
 

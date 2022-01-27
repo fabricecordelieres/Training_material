@@ -141,7 +141,7 @@ Certains workflow que nous allons utiliser nécessitent d’utiliser les ressour
 ---
 # Contenu de la formation
 
-Pour les partie de la formation ayant été enregistrées, une playlist est disponible [ici](https://www.youtube.com/watch?v=ttyilVGUCLQ&list=PLHrpBtlAiSe1Wzbv1KeFa19dlnMVCmNvE), [sur la chaine YouTube du RTMFM](https://www.youtube.com/channel/UCpziluNVb_ViZVaX0tYjuBw).
+Pour les partie de la formation ayant été enregistrées, une playlist est disponible [ici](https://www.youtube.com/watch?v=ttyilVGUCLQ&list=PLHrpBtlAiSe1Wzbv1KeFa19dlnMVCmNvE), sur la chaine YouTube du [RTMFM](https://www.youtube.com/channel/UCpziluNVb_ViZVaX0tYjuBw).
 
 ## <a name="intro">Introduction au Deep-Learning: théorie et vocabulaire, David Rousseau</a>
 * La présentation est disponible [ici](https://uabox.univ-angers.fr/index.php/s/qBNkC2KdJ5BCZhw).

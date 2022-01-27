@@ -184,7 +184,7 @@ Pour les partie de la formation ayant été enregistrées, une playlist est disp
 ## <a name="zerocostqc">ZeroCostDL4Mic: les outils de contrôle qualité, Guillaume Jacquemet</a>
 * La vidéo de cette session est disponible [ici](https://www.youtube.com/watch?v=ttyilVGUCLQ&list=PLHrpBtlAiSe1Wzbv1KeFa19dlnMVCmNvE&index=3)
 
-## <a name="tr">Table-ronde: quels outils et métriques pour le contrôle qualité ?, Romain Guiet/Bertrand Vernay/Daniel Sage</a>
+## <a name="tr">Table-ronde: quels outils et métriques pour le contrôle qualité ? Romain Guiet/Bertrand Vernay/Daniel Sage</a>
 ## <a name="annot">Expérimentez sur vos propres images, Q&A, Tous les instructeurs</a>
 
 ![Photo de groupe](https://github.com/fabricecordelieres/Training_material/blob/master/French/2021/2021%20ANF%20DL4MIC/img/Photo_groupe.jpg)
